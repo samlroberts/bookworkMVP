@@ -1,0 +1,20 @@
+<?php
+
+$fields = array();
+$fields{"Full_Name"} = "Name";
+$fields{"Email_Address"} = "Email";
+$fields{"Telephone_Number"} = "Phone Number";
+$fields{"Skills"} = "Skills";
+
+$body = "We have received the following information:\n\n";
+foreach($fields as $a => $b) {
+	$body .= sprintf("%20s: %s\n:", $b, $_REQUEST[$a]);
+}
+
+$to = "guha.rakesh@gmail.com";
+$from = $_REQUEST['Email_Address'];
+$subject = "Contact form submission"
+$headers = "From: $from";
+$send = mail($to, $subject, $body, $headers);
+
+?>
