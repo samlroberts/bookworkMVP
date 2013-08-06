@@ -877,6 +877,12 @@ pre code {
   width: 100%;
 }
 
+.center {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 728px;
@@ -1886,6 +1892,7 @@ input[type="button"].btn-block {
 }
 
 .collapsing {
+
   position: relative;
   height: 0;
   overflow: hidden;
@@ -1963,6 +1970,7 @@ input[type="button"].btn-block {
 .input-group-addon:first-child,
 .input-group-btn:first-child > .btn,
 .input-group-btn:first-child > .dropdown-toggle,
+
 .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle) {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
