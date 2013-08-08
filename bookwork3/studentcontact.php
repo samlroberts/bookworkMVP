@@ -1,6 +1,6 @@
 <?php
 
-$to = "guha.rakesh@gmail.com";
+$to = "signup@bookwork.co";
 $email = $_REQUEST['Email_Address']; 
 $subject = "Contact form submission";
 $headers = "From: $email";
@@ -41,7 +41,7 @@ mail($to, $subject, $body, $headers);
 if ($error != '') {
 	header("Location: http://www.ulance.co/error.html");
 } else {
-	header("Location: http://www.ulance.co/thankyou.html");
+	header("Location: http://www.ulance.co/thankyoustudent.html");
 }
 
 ?>

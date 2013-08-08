@@ -28,11 +28,11 @@
                     <span class="icon-bar"></span>
                 </button>
                 
-                <a class="navbar-brand" href="#">bookwork</a>
+                <a class="navbar-brand" href="index.html">bookwork</a>
 
                 <div class="nav-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
+                        <li class="active"><a href="./index.html">Home</a></li>
                         <!-- li><a href="#about">About</a></li>
                         <li><a href="#contact">Contact</a></li -->                        
                     </ul>
@@ -44,155 +44,18 @@
         <!-- JUMBOTRON
         ================================================== -->
         <div class="container">
-            <div class="jumbotron">
-                <h1>bookwork</h1>
-                <p>Bookwork brings you <b>the best</b>. Get matched with the most talented students, and start <b>working</b>. Start <b>recruiting</b>. Start <b>hiring</b>.</p>
-            </div><!-- /.jumbotron -->
-
             <div class="body-content">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <h2>Employers</h2>
-                        <p>Find the talent you need. Fast, easy, dependable.</p>
-                        <p><a data-toggle="modal" class="btn btn-default" href="#employerModal">Get started &raquo;</a></p>
-                    </div><!-- /.col-lg-6 -->
-
-                    <div class="col-lg-6">
-                        <h2>Students</h2>
-                        <p>Build experience. Earn money. Get ahead.</p>
-                        <p><a data-toggle="modal" class="btn btn-default" href="#myModal">Get started &raquo;</a></p>
-                    </div><!-- /.col-lg-6 -->
-                </div><!-- /.row -->
-                
-                <!-- NOTIFICATION BOX -->
+                <br>
                 <div class="alert alert-danger">
-					<b>Error!</b> Your form was incomplete or invalid. Please go back and try again.
-                </div><!-- /.alert -->
-                
+                    <h3><strong>Error!</strong> There was an error with your submission. Please return back <a href="index.html">home</a> and try again.<h3>
+                </div><!-- /.alert -->                
                 <!-- =================================== -->
-
                 <hr>
-
                 <footer>
                     <p>&copy; ULance, LLC 2013</p>
                 </footer>
             </div><!-- /.body-content -->
         </div>
-        
-        <!-- MODAL FOR EMPLOYERS
-        ================================================== -->
-        
-        <div class="modal fade" id="employerModal">
-            <div class="modal-dialog">
-                <div class="modal-content">
-
-                    <form class="form-horizontal" method="post" action="employercontact.php">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                            <h4 class="modal-title">Create a project</h4>
-                        </div><!-- /.modal-header -->
-                        
-                        <div class="modal-body">
-                            
-                            <div class="form-group">
-                                <label for="Full_Name" class="col-lg-4 control-label">Full Name</label>
-                                <div class="col-lg-8">
-                                    <input type="text" class="form-control" id="Full_Name" name="Full_Name" placeholder="Full Name">
-                                </div>
-                            </div><!-- /.form-group -->
-                            
-                            <div class="form-group">
-                                <label for="Company" class="col-lg-4 control-label">Company Name</label>
-                                <div class="col-lg-8">
-                                    <input type="text" class="form-control" id="Company" name="Company" placeholder="Company Name">
-                                </div>
-                            </div><!-- /.form-group -->
-
-                            <div class="form-group">
-                                <label for="Email_Address" class="col-lg-4 control-label">Email Address</label>
-                                <div class="col-lg-8">
-                                    <input type="text" class="form-control" id="Email_Address" name="Email_Address" placeholder="Email Address">
-                                </div>
-                            </div><!-- /.form-group -->
-
-                            <div class="form-group">
-                                <label for="Telephone_Number" class="col-lg-4 control-label">Telephone Number</label>
-                                <div class="col-lg-8">
-                                    <input type="text" class="form-control" id="Telephone_Number" name="Telephone_Number" placeholder="Telephone Number">
-                                </div>
-                            </div><!-- /.form-group -->
-
-                            <div class="form-group">
-                                <label for="Project" class="col-lg-4 control-label">Project Description</label>
-                                <div class="col-lg-8">
-                                    <textarea class="form-control" id="Project" name="Project" placeholder="Detailed description of your project and necessary skills (be as specific as possible)" rows="4"></textarea>
-                                </div>
-                            </div><!-- /.form-group -->
-                            
-                        </div><!-- /.modal-body -->
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            <button type="submit" value="Submit" class="btn btn-success">Submit</button>
-                        </div><!-- /.modal-footer -->
-                    </form>
-                </div><!-- /.modal-content -->
-            </div><!-- /.modal-dialog -->
-        </div><!-- /.modal -->
-        
-
-        <!-- MODAL FOR STUDENTS
-        ================================================== -->
-        <div class="modal fade" id="myModal">
-            <div class="modal-dialog">
-                <div class="modal-content">
-
-                    <form class="form-horizontal" method="post" action="studentcontact.php">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                            <h4 class="modal-title">Sign up</h4>
-                        </div><!-- /.modal-header -->
-                        
-                        <div class="modal-body">
-                            
-                            <div class="form-group">
-                                <label for="Full_Name" class="col-lg-4 control-label">Full Name</label>
-                                <div class="col-lg-8">
-                                    <input type="text" class="form-control" id="Full_Name" name="Full_Name" placeholder="Full Name">
-                                </div>
-                            </div><!-- /.form-group -->
-
-                            <div class="form-group">
-                                <label for="Email_Address" class="col-lg-4 control-label">Email Address</label>
-                                <div class="col-lg-8">
-                                    <input type="text" class="form-control" id="Email_Address" name="Email_Address" placeholder="Email Address">
-                                </div>
-                            </div><!-- /.form-group -->
-
-                            <div class="form-group">
-                                <label for="Telephone_Number" class="col-lg-4 control-label">Telephone Number</label>
-                                <div class="col-lg-8">
-                                    <input type="text" class="form-control" id="Telephone_Number" name="Telephone_Number" placeholder="Telephone Number">
-                                </div>
-                            </div><!-- /.form-group -->
-
-                            <div class="form-group">
-                                <label for="Skills" class="col-lg-4 control-label">Skills</label>
-                                <div class="col-lg-8">
-                                    <textarea class="form-control" id="Skills" name="Skills" placeholder="Detailed description of your skills (be as specific as possible)" rows="4"></textarea>
-                                </div>
-                            </div><!-- /.form-group -->
-                            
-                        </div><!-- /.modal-body -->
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            <button type="submit" value="Submit" class="btn btn-success">Submit</button>
-                        </div><!-- /.modal-footer -->
-                    </form>
-                </div><!-- /.modal-content -->
-            </div><!-- /.modal-dialog -->
-        </div><!-- /.modal -->
         
         <!-- JAVASCRIPT
         ================================================== -->
