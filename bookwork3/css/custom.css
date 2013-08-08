@@ -1,0 +1,43 @@
+/* Changes to carousel.css
+-------------------------------------------------- */
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+	background: url("/img/cream_dust.png") repeat 0 0;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 40px 0; /* Space out the Bootstrap <hr> more */
+}
+.featurette-image {
+  margin-top: -40px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+/* added the col-lg-6
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-6 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-6 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
